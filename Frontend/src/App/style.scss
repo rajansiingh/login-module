@@ -1,0 +1,40 @@
+.app-container {
+  background: #f3f7f8;
+  label, h1, h2, h3, h4, h5, h6 {
+    color: #012b72;
+  }
+  .btn-primary {
+    background-color: #00b9f5;
+    border-color: #00b9f5;
+    &:hover, &:active {
+      background-color: #00b9f5;
+      border-color: #00b9f5;
+    }
+  }
+  .has-error .form-control {
+    border-color: red;
+  }
+  .has-error .checkbox, .has-error .checkbox-inline,
+  .has-error .control-label, .has-error .help-block,
+  .has-error .radio, .has-error .radio-inline,
+  .has-error.checkbox label, .has-error.checkbox-inline label,
+  .has-error.radio label, .has-error.radio-inline label {
+    color: red
+  }
+
+  .pl-5{
+    padding-left: 10px !important;
+  }
+  @media (min-width: 600px) {
+    //width: 25%;
+    .route-container {
+      border-right: 1px solid #f3f7f8;
+    }
+  }
+
+}
+
+
+html {
+  background: #f3f7f8;
+}

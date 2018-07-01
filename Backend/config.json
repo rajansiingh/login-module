@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb://localhost/login-module",
+    "secret": "my-secret-key"
+}
